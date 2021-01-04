@@ -28,22 +28,46 @@ canvas {
   height: 100%;
   z-index: -1;
 }
-/* Actual Styling */
+/* - - Actual Styling - - */
+/* This is all a fucking mess and has no organizational structure.
+Which will probably come to bite me in the ass later on. */
 nav {
+	font-size: 2vmin;
+	display: flex;
 	margin-top: 1vmin;
 	margin-left: 1vmin;
 	background-image: linear-gradient(#333, #111);
-	width: 8vmin;
+	width: 20vmin;
 	border-radius: 2vmin;
 	opacity: 50%;
+	transition-duration: 0.2s;
+}
+.appsbutton {
+	padding-top: 12.5%;
+}
+#apps {
+	margin-top: 1vmin;
+	text-decoration: none;
+	font-family: 'karla', sans-serif;
+	transition-duration: 0.4s;
+}
+#apps:hover {
+	color: #CECECE;
 	transition-duration: 0.2s;
 }
 #logo {
 	padding: 1vmin;
 	height: 8vmin;
 	border-radius: 16vmax;
+	transition-duration: 0.4s;
+}
+#logo:hover {
+	height: 9vmin;
+	transition-duration: 0.4s;
 }
 nav:hover{
+	font-size: 2.5vmin;
+	width: 24vmin;
 	transition-duration: 0.4s;
 	opacity: 100%;
 }
@@ -91,4 +115,16 @@ nav:hover{
 	text-align: center;
 	font-family: 'Karla', sans-serif;
 	color: #FAFAFA;
+}
+#apps-container {
+	padding: 5%;
+}
+#apps-notice {
+	color: #CECECE;
+	font-family: 'Rubik', sans-serif;
+	font-size: 4vmin;
+	background-color: #5e5e5e;
+	margin: 0.25vmin;
+	border-radius: 2vmax;
+	padding: 2vmin;
 }
