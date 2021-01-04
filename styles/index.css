@@ -118,7 +118,10 @@ nav:hover{
 	color: #FAFAFA;
 }
 #apps-container {
-	padding: 5%;
+	text-align: center;
+	vertical-align: center;
+	padding: 32vmin;
+	width: auto;
 }
 #apps-notice {
 	color: #CECECE;
