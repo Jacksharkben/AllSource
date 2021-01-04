@@ -14,6 +14,9 @@ body {
 	body {
 	background-color: #020202;
 }
+a {
+	color: #bababa;
+}
 canvas {
   display: block;
   vertical-align: bottom;
