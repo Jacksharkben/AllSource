@@ -491,96 +491,9 @@
 			<a id="apps" href="apps">Applications</a>
 		</div>
 	</nav>
-	<div id="container"> <!-- Users container -->
-		<div class="user">
-			<a href="https://twitch.tv/RedDevRedemptionn"><img class="logo" src="assets/Red.png"></a>
-			<div class="name">
-				RedDevRedemptionn
-			</div>
-			<div class="r-quote">
-				hi im gamer :)
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/ravenplays01"><img class="logo" src="assets/raven.png"></a>
-			<div class="name">
-				RavenPlays01
-			</div>
-			<div class="quote">
-				My name is Raven, I stream dumb games and I swear like a sailor at least once or twice a week.
-			</div>
-		</div>
-		<div class="user">
-			<img class="logo" src="assets/flamey.png">
-			<div class="name">
-				Flamey
-			</div>
-			<div class="quote">
-				Heya, I'm Flamey. I stream once in a blue moon and am mostly mute, but I just like to hang out and play games.
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/venom_girl_"><img class="logo" src="assets/venom.png"></a>
-			<div class="name">
-				Venom Girl ♥
-			</div>
-			<div class="quote">
-				My name is Venom, and I do art related things and play some games too. Overall just a creative person.
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/thermicwaffle"><img class="logo" src="assets/thermic.png"></a>
-			<div class="name">
-				ThermicWaffle
-			</div>
-			<div class="quote">
-				Hello! I'm ThermicWaffle and I'm a variety streamer that plays games and is into computers and stories. I stream twice a week on Fridays and Saturdays, and normally get pissed at the game!
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/mettalikgm"><img class="logo" src="assets/metta.png"></a>
-			<div class="name">
-				Mettalik
-			</div>
-			<div class="quote">
-				Whats up Im Mettalik! Im a content creator that plays competitive games aswell as horror games. If you wanna hang out and watch some funny or competitive gameplay stop by. I'll cya there!
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/ZinnStreams"><img class="logo" src="assets/zinn.png"></a>
-			<div class="name">
-				ZinnStreams
-			</div>
-			<div class="quote">
-				Yo, I'm Zinn. I'm a dude who plays games. That's about it. (Mainly Minecraft & Fortnite)
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/Jacksharkben"><img class="logo" src="assets/jack.png"></a>
-			<div class="name">
-				Jacksharkben
-			</div>
-			<div class="quote">
-				I play games and stream
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/TheColcifer"><img class="logo" src="assets/colcifer.png"></a>
-			<div class="name">
-				Colcifer
-			</div>
-			<div class="quote">
-				Hi, my name is Colcifer I play a variety of games, so go on and follow my Twitter for news of updates of games, livestream and other stuff. Have fun watching me!!!
-			</div>
-		</div>
-		<div class="user">
-			<a href="https://twitch.tv/Paulleewhirl"><img class="logo" src="assets/paullee.png"></a>
-			<div class="name">
-				Paulleewhirl
-			</div>
-			<div class="quote">
-				Click on <a href="https://twitch.tv/Paulleewhirl">this link</a> to win $500 for FREE! NOT SPAM
-			</div>
+	<div id="apps-container">
+		<div id="apps-notice">
+			Google won't let us embed a form here for security reasons, so you're going to have to click <a href="https://forms.gle/1fnGcPZ977YpaECw7">here</a> to access our applications. Wishing you luck!
 		</div>
 	</div>
 	<!-- blank space for future use. -->
