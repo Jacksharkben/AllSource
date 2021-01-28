@@ -32,29 +32,34 @@ canvas {
 /* This is all a fucking mess and has no organizational structure.
 Which will probably come to bite me in the ass later on. */
 nav {
+	align-items: center;
+	margin: 1vmin;
 	font-size: 2vmin;
-	display: flex;
-	margin-top: 1vmin;
-	margin-left: 1vmin;
+	display: inline-flex;
 	background-image: linear-gradient(#333, #111);
-	width: 30vmin;
 	border-radius: 2vmin;
 	opacity: 50%;
 	transition-duration: 0.2s;
 }
-.appsbutton {
-	padding-top: 10%;
+nav:hover{
+	font-size: 2.5vmin;
+	transition-duration: 0.4s;
+	opacity: 100%;
 }
-#apps {
-	padding-left: 8px;
+.appsbutton {
+	transition-duration: 0.2s;
+	padding:8px;
+}
+.apps {
 	margin-top: 1vmin;
+	transition-duration: 0.2s;
 	text-decoration: none;
 	font-family: 'karla', sans-serif;
-	transition-duration: 0.4s;
 }
-#apps:hover {
-	color: #CECECE;
+.apps:hover {
 	transition-duration: 0.2s;
+	font-size:3vmin;
+	color: #CECECE;
 }
 #logo {
 	padding: 1vmin;
@@ -65,12 +70,6 @@ nav {
 #logo:hover {
 	height: 9vmin;
 	transition-duration: 0.4s;
-}
-nav:hover{
-	font-size: 2.5vmin;
-	width: 34vmin;
-	transition-duration: 0.4s;
-	opacity: 100%;
 }
 #container {
 	justify-content: center;
